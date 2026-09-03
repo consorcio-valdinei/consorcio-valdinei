@@ -7,148 +7,708 @@
 <title>Consórcio Ademicon | Valdinei</title>
 
 <style>
+
 *{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+box-sizing:border-box;
+margin:0;
+padding:0;
 }
 
 body{
-  font-family:Arial,Helvetica,sans-serif;
-  background:#f7f7f7;
-  color:#222;
-  line-height:1.5;
+font-family:Arial,Helvetica,sans-serif;
+background:#f7f7f7;
+color:#222;
+line-height:1.5;
 }
 
 .container{
-  max-width:1100px;
-  margin:auto;
-  padding:20px;
+max-width:1100px;
+margin:auto;
+padding:20px;
 }
 
 header{
-  background:#fff;
-  text-align:center;
-  padding:25px 15px 30px;
-  border-bottom:4px solid #e21d25;
+background:#fff;
+text-align:center;
+padding:25px 15px 30px;
+border-bottom:4px solid #e21d25;
 }
 
 .logo{
-  max-width:230px;
-  width:70%;
-  height:auto;
-  margin-bottom:15px;
+font-size:38px;
+font-weight:900;
+color:#e21d25;
+margin-bottom:10px;
+letter-spacing:-1px;
+}
+
+.logo span{
+color:#222;
 }
 
 h1{
-  color:#c9151d;
-  font-size:clamp(30px,7vw,58px);
-  line-height:1.05;
-  font-weight:900;
-  margin:10px 0 15px;
+color:#c9151d;
+font-size:clamp(30px,7vw,58px);
+line-height:1.05;
+font-weight:900;
+margin:10px 0 15px;
 }
 
 .subtitle{
-  max-width:850px;
-  margin:auto;
-  font-size:18px;
-  color:#444;
+max-width:850px;
+margin:auto;
+font-size:18px;
+color:#444;
 }
 
 .badges{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:10px;
-  margin-top:22px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:10px;
+margin-top:22px;
 }
 
 .badge{
-  background:#fff;
-  border:2px solid #e21d25;
-  color:#b51219;
-  padding:9px 15px;
-  border-radius:30px;
-  font-weight:bold;
-  font-size:14px;
+background:#fff;
+border:2px solid #e21d25;
+color:#b51219;
+padding:9px 15px;
+border-radius:30px;
+font-weight:bold;
+font-size:14px;
 }
 
 section{
-  margin:25px 0;
+margin:30px 0;
 }
 
 .section-title{
-  text-align:center;
-  color:#c9151d;
-  font-size:28px;
-  font-weight:900;
-  margin-bottom:18px;
+text-align:center;
+color:#c9151d;
+font-size:28px;
+font-weight:900;
+margin-bottom:18px;
 }
 
 .cards{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:18px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:18px;
 }
 
 .card{
-  background:#fff;
-  border-radius:18px;
-  padding:20px;
-  box-shadow:0 4px 18px rgba(0,0,0,.08);
-  border-top:5px solid #e21d25;
+background:#fff;
+border-radius:18px;
+padding:20px;
+box-shadow:0 4px 18px rgba(0,0,0,.08);
+border-top:5px solid #e21d25;
 }
 
 .card h3{
-  color:#c9151d;
-  font-size:22px;
-  margin-bottom:12px;
+color:#c9151d;
+font-size:22px;
+margin-bottom:12px;
 }
 
 .card p{
-  color:#444;
-  margin-bottom:10px;
+color:#444;
+margin-bottom:10px;
 }
 
 .illustration{
-  text-align:center;
-  font-size:65px;
-  margin-bottom:10px;
+text-align:center;
+font-size:65px;
+margin-bottom:10px;
 }
 
 table{
-  width:100%;
-  border-collapse:collapse;
-  overflow:hidden;
-  border-radius:12px;
-  margin-top:12px;
+width:100%;
+border-collapse:collapse;
+margin-top:12px;
+border-radius:12px;
+overflow:hidden;
 }
 
 th{
-  background:#c9151d;
-  color:white;
-  padding:12px 8px;
-  font-size:15px;
+background:#c9151d;
+color:#fff;
+padding:12px 8px;
+font-size:15px;
 }
 
 td{
-  background:#fff;
-  padding:11px 8px;
-  text-align:center;
-  border:1px solid #ddd;
-  font-size:15px;
+background:#fff;
+padding:11px 8px;
+text-align:center;
+border:1px solid #ddd;
+font-size:15px;
 }
 
 td strong{
-  color:#b51219;
+color:#b51219;
 }
 
 .note{
-  font-size:12px;
-  color:#666;
-  margin-top:8px;
+font-size:12px;
+color:#666;
+margin-top:8px;
 }
 
 .uses{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.use{
+background:#fff;
+border-left:5px solid #e21d25;
+border-radius:12px;
+padding:16px;
+box-shadow:0 3px 12px rgba(0,0,0,.06);
+}
+
+.use h4{
+color:#c9151d;
+margin-bottom:6px;
+font-size:17px;
+}
+
+.use p{
+font-size:14px;
+color:#444;
+}
+
+.section-subtitle{
+text-align:center;
+color:#555;
+margin:-8px auto 18px;
+font-size:15px;
+}
+
+.cta{
+background:#c9151d;
+color:#fff;
+text-align:center;
+padding:30px 20px;
+border-radius:20px;
+margin:30px 0;
+}
+
+.cta h2{
+font-size:28px;
+margin-bottom:8px;
+}
+
+.cta p{
+margin-bottom:18px;
+}
+
+.whatsapp{
+display:inline-block;
+background:#25D366;
+color:#fff;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+padding:15px 25px;
+border-radius:12px;
+}
+
+.email{
+margin-top:15px;
+font-size:14px;
+}
+
+footer{
+text-align:center;
+color:#777;
+font-size:12px;
+padding:10px 20px 30px;
+}
+
+.disclaimer{
+background:#fff;
+border-radius:12px;
+padding:15px;
+margin-top:20px;
+color:#666;
+font-size:12px;
+text-align:center;
+}
+
+@media(max-width:600px){
+
+.container{
+padding:12px;
+}
+
+header{
+padding:20px 10px 25px;
+}
+
+.subtitle{
+font-size:16px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.uses{
+grid-template-columns:1fr;
+}
+
+.card{
+padding:16px;
+}
+
+th,
+td{
+font-size:13px;
+padding:9px 5px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+ADEMICON
+</div>
+
+<h1>
+PLANEJE AGORA<br>
+O SEU FUTURO!
+</h1>
+
+<p class="subtitle">
+Com o consórcio Ademicon, você conquista mais com planejamento,
+flexibilidade e parcelas que cabem no seu bolso.
+</p>
+
+<div class="badges">
+
+<div class="badge">
+PLANEJAMENTO
+</div>
+
+<div class="badge">
+FLEXIBILIDADE
+</div>
+
+<div class="badge">
+PODER DE COMPRA
+</div>
+
+<div class="badge">
+SEU SONHO, SEU TEMPO
+</div>
+
+</div>
+
+</header>
+
+
+<main class="container">
+
+
+<!-- VEÍCULOS -->
+
+<section>
+
+<h2 class="section-title">
+CONSÓRCIO DE VEÍCULOS
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="illustration">
+🚗 🏍️
+</div>
+
+<h3>
+Seu próximo veículo
+</h3>
+
+<p>
+Planeje a compra do seu carro, moto ou outro veículo
+com uma carta de crédito adequada ao seu objetivo.
+</p>
+
+<table>
+
+<tr>
+<th>Carta de Crédito</th>
+<th>Parcela*</th>
+</tr>
+
+<tr>
+<td>R$ 40.000</td>
+<td><strong>R$ 278,40</strong></td>
+</tr>
+
+<tr>
+<td>R$ 60.000</td>
+<td><strong>R$ 417,60</strong></td>
+</tr>
+
+<tr>
+<td>R$ 72.000</td>
+<td><strong>R$ 501,12</strong></td>
+</tr>
+
+<tr>
+<td>R$ 80.000</td>
+<td><strong>R$ 556,80</strong></td>
+</tr>
+
+<tr>
+<td>R$ 100.000</td>
+<td><strong>R$ 697,20</strong></td>
+</tr>
+
+</table>
+
+<p class="note">
+*Valores meramente ilustrativos. Consulte as condições
+vigentes do grupo e plano.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- IMÓVEIS -->
+
+<section>
+
+<h2 class="section-title">
+CONSÓRCIO DE IMÓVEIS
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="illustration">
+🏠
+</div>
+
+<h3>
+Realize seu projeto imobiliário
+</h3>
+
+<p>
+Escolha uma carta de crédito para comprar, construir,
+reformar ou investir em imóveis.
+</p>
+
+<table>
+
+<tr>
+<th>Carta de Crédito</th>
+<th>Parcela*</th>
+</tr>
+
+<tr>
+<td>R$ 100.000</td>
+<td><strong>R$ 337,30</strong></td>
+</tr>
+
+<tr>
+<td>R$ 150.000</td>
+<td><strong>R$ 505,95</strong></td>
+</tr>
+
+<tr>
+<td>R$ 200.000</td>
+<td><strong>R$ 674,60</strong></td>
+</tr>
+
+<tr>
+<td>R$ 300.000</td>
+<td><strong>R$ 1.011,00</strong></td>
+</tr>
+
+<tr>
+<td>R$ 500.000</td>
+<td><strong>R$ 1.800,00</strong></td>
+</tr>
+
+</table>
+
+<p class="note">
+*Valores meramente ilustrativos. Consulte as condições
+vigentes do grupo e plano.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- IMÓVEL -->
+
+<section>
+
+<h2 class="section-title">
+CONSÓRCIO DE IMÓVEL — USOS DO CRÉDITO
+</h2>
+
+<div class="uses">
+
+<div class="use">
+<h4>🏠 Comprar Imóvel</h4>
+<p>
+Casa, apartamento, terreno ou imóvel comercial,
+novo, usado, na planta, na cidade, praia ou campo.
+</p>
+</div>
+
+<div class="use">
+<h4>🔨 Reformar ou Construir</h4>
+<p>
+Reforme um imóvel já quitado, construa do zero
+ou amplie seu imóvel.
+</p>
+</div>
+
+<div class="use">
+<h4>💰 Quitar Financiamento</h4>
+<p>
+Use a carta para quitar saldo devedor de financiamento
+imobiliário, conforme as regras do plano.
+</p>
+</div>
+
+<div class="use">
+<h4>🌎 Imóvel no Exterior</h4>
+<p>
+Possibilidade de aquisição de imóvel fora do Brasil,
+sujeita à aprovação e às condições aplicáveis.
+</p>
+</div>
+
+<div class="use">
+<h4>📈 Investimento Imobiliário</h4>
+<p>
+Adquira imóveis para locação, valorização ou revenda,
+conforme estratégia e condições do consórcio.
+</p>
+</div>
+
+<div class="use">
+<h4>🏗️ Comprar Terreno e Construir</h4>
+<p>
+Use a carta para comprar o terreno e posteriormente
+utilizá-lo conforme as regras de garantia e liberação.
+</p>
+</div>
+
+</div>
+
+<div class="disclaimer">
+No imóvel, o FGTS pode ter utilização conforme as regras
+vigentes e os requisitos aplicáveis.
+</div>
+
+</section>
+
+
+<!-- AUTO -->
+
+<section>
+
+<h2 class="section-title">
+CONSÓRCIO DE AUTO — USOS DO CRÉDITO
+</h2>
+
+<div class="uses">
+
+<div class="use">
+<h4>🚗 Carro novo ou usado</h4>
+<p>
+Compre ou troque seu veículo utilizando a carta de crédito
+e tenha poder de negociação na compra.
+</p>
+</div>
+
+<div class="use">
+<h4>🏍️ Moto, Quadriciclo e Náutico</h4>
+<p>
+Motocicletas, quadriciclos, jet-skis, lanchas,
+barcos e outras embarcações.
+</p>
+</div>
+
+<div class="use">
+<h4>🚚 Frota Empresarial</h4>
+<p>
+Renove ou amplie a frota da sua empresa
+sem comprometer todo o capital de giro.
+</p>
+</div>
+
+<div class="use">
+<h4>🚜 Máquinas e Agronegócio</h4>
+<p>
+Tratores, colheitadeiras, pulverizadores,
+drones agrícolas e outros equipamentos.
+</p>
+</div>
+
+<div class="use">
+<h4>✈️ Aeronaves</h4>
+<p>
+Possibilidade de aquisição de aeronaves de pequeno porte,
+conforme regras e condições específicas.
+</p>
+</div>
+
+<div class="use">
+<h4>🏗️ Máquinas de Construção</h4>
+<p>
+Escavadeiras, retroescavadeiras, plataformas
+e equipamentos para sua atividade.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVIÇOS -->
+
+<section>
+
+<h2 class="section-title">
+CONSÓRCIO DE SERVIÇOS — USOS DO CRÉDITO
+</h2>
+
+<p class="section-subtitle">
+De R$ 15 mil a R$ 40 mil — para projetos que não envolvem
+imóvel ou veículo, conforme as condições do plano.
+</p>
+
+<div class="uses">
+
+<div class="use">
+<h4>🏡 Residencial</h4>
+<p>
+Reformas, ampliações, projetos arquitetônicos,
+placas solares, climatização e automação residencial.
+</p>
+</div>
+
+<div class="use">
+<h4>❤️ Saúde e Estética</h4>
+<p>
+Cirurgias, tratamentos odontológicos, procedimentos
+estéticos e outros serviços elegíveis.
+</p>
+</div>
+
+<div class="use">
+<h4>🎉 Festas e Eventos</h4>
+<p>
+Casamentos, 15 anos, bodas, formaturas,
+aniversários, decoração, buffet e cerimonial.
+</p>
+</div>
+
+<div class="use">
+<h4>✈️ Viagens e Intercâmbio</h4>
+<p>
+Pacotes nacionais e internacionais, cruzeiros,
+intercâmbios e viagens de lua de mel.
+</p>
+</div>
+
+<div class="use">
+<h4>🎓 Educação</h4>
+<p>
+Faculdades, pós-graduações, mestrados,
+cursos no Brasil ou exterior e consultorias.
+</p>
+</div>
+
+<div class="use">
+<h4>☀️ Energia e Tecnologia</h4>
+<p>
+Placas solares fotovoltaicas, automação residencial
+e climatização.
+</p>
+</div>
+
+</div>
+
+<div class="disclaimer">
+O crédito de serviços é destinado ao prestador de serviço,
+observadas as regras, documentos e condições do grupo.
+</div>
+
+</section>
+
+
+<!-- WHATSAPP -->
+
+<section class="cta">
+
+<h2>
+FALE COM VALDINEI
+</h2>
+
+<p>
+Quer saber qual carta de crédito combina com seu objetivo?
+Fale comigo pelo WhatsApp.
+</p>
+
+<a
+class="whatsapp"
+href="https://wa.me/5511997788389?text=Ol%C3%A1%2C%20Valdinei!%20Vi%20sua%20p%C3%A1gina%20de%20cons%C3%B3rcio%20e%20quero%20conhecer%20as%20condi%C3%A7%C3%B5es."
+target="_blank">
+
+💬 CHAMAR NO WHATSAPP
+
+</a>
+
+<div class="email">
+📧 valdinei.ademicon@gmail.com
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+Valdinei — Consultor de Consórcios Ademicon
+</p>
+
+<p>
+As condições, valores e parcelas apresentados são meramente
+ilustrativos e podem variar conforme grupo, plano, prazo,
+reajustes e condições comerciais vigentes.
+</p>
+
+</footer>
+
+</main>
+
+</body>
+</html>
