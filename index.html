@@ -2,99 +2,153 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lucratividade com Consórcio | Valdinei</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Consórcio Ademicon | Valdinei</title>
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;background:#080808;color:#fff;font-family:Arial,sans-serif}
-main{max-width:700px;margin:auto;padding:25px 16px 35px}
-.logo{font-size:30px;font-weight:bold;margin-bottom:20px}
-.logo span{color:#e21d25}
-.tag{color:#fff;border:1px solid #e21d25;border-radius:20px;padding:8px 13px;display:inline-block;font-size:13px}
-h1{font-size:52px;line-height:.95;margin:25px 0 5px}
-h1 span{font-weight:normal}
-.sub{font-size:20px;line-height:1.4}
-table{width:100%;border-collapse:collapse;margin-top:22px;border-radius:12px;overflow:hidden}
-th{background:#c9151d;padding:14px 6px;font-size:15px}
-td{padding:13px 5px;text-align:center;border:1px solid #555;font-size:15px}
-td strong{font-size:16px}
-.obs{font-size:12px;color:#bbb;margin:10px 0 25px}
-.texto{font-size:18px;line-height:1.5}
-.texto b{color:#f12b32}
-.cta{display:block;background:#20c65a;color:#fff;text-decoration:none;text-align:center;font-size:19px;font-weight:bold;padding:18px 10px;border-radius:14px;margin-top:25px}
-.cta small{display:block;font-size:13px;font-weight:normal;margin-top:5px}
-.footer{text-align:center;color:#999;font-size:11px;margin-top:18px}
-@media(max-width:500px){
-h1{font-size:40px}
-th,td{font-size:13px}
-td strong{font-size:14px}
-.sub{font-size:18px}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
-</style>
-</head>
 
-<body>
-<main>
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f7f7f7;
+  color:#222;
+  line-height:1.5;
+}
 
-<div class="logo"><span>⌂</span> ADEMICON</div>
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
 
-<div class="tag">CONSÓRCIO IMOBILIÁRIO</div>
+header{
+  background:#fff;
+  text-align:center;
+  padding:25px 15px 30px;
+  border-bottom:4px solid #e21d25;
+}
 
-<h1>Lucratividade<br><span>com consórcio</span></h1>
+.logo{
+  max-width:230px;
+  width:70%;
+  height:auto;
+  margin-bottom:15px;
+}
 
-<p class="sub">
-Inicie seu investimento através do Consórcio Imobiliário Ademicon.
-</p>
+h1{
+  color:#c9151d;
+  font-size:clamp(30px,7vw,58px);
+  line-height:1.05;
+  font-weight:900;
+  margin:10px 0 15px;
+}
 
-<table>
-<tr>
-<th>Valor do crédito</th>
-<th>Investimento mensal</th>
-<th>Lucro médio</th>
-</tr>
+.subtitle{
+  max-width:850px;
+  margin:auto;
+  font-size:18px;
+  color:#444;
+}
 
-<tr><td>R$ 100.000,00</td><td><strong>R$ 337,37</strong></td><td>R$ 40.000,00</td></tr>
-<tr><td>R$ 140.000,00</td><td><strong>R$ 470,91</strong></td><td>R$ 56.000,00</td></tr>
-<tr><td>R$ 200.000,00</td><td><strong>R$ 678,90</strong></td><td>R$ 80.000,00</td></tr>
-<tr><td>R$ 250.000,00</td><td><strong>R$ 848,62</strong></td><td>R$ 100.000,00</td></tr>
-<tr><td>R$ 300.000,00</td><td><strong>R$ 1.018,55</strong></td><td>R$ 120.000,00</td></tr>
-<tr><td>R$ 400.000,00</td><td><strong>R$ 1.357,80</strong></td><td>R$ 160.000,00</td></tr>
-<tr><td>R$ 545.850,00</td><td><strong>R$ 1.827,73</strong></td><td>R$ 218.340,50</td></tr>
-</table>
+.badges{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:22px;
+}
 
-<p class="obs">
-Consulte condições especiais das parcelas. Valores e resultados são exemplos e devem ser confirmados conforme o grupo, plano e condições vigentes.
-</p>
+.badge{
+  background:#fff;
+  border:2px solid #e21d25;
+  color:#b51219;
+  padding:9px 15px;
+  border-radius:30px;
+  font-weight:bold;
+  font-size:14px;
+}
 
-<div class="texto">
+section{
+  margin:25px 0;
+}
 
-<p>
-Você tem <b>R$ 337,37 por mês</b> para investir?
-Com uma estratégia de consórcio, esse valor pode ser direcionado para a construção de patrimônio.
-</p>
+.section-title{
+  text-align:center;
+  color:#c9151d;
+  font-size:28px;
+  font-weight:900;
+  margin-bottom:18px;
+}
 
-<p>🏠💰 Chegou a hora de parar de apenas poupar e começar a planejar seu futuro.</p>
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:18px;
+}
 
-<p>🎯 Quanto maior seu investimento, maior pode ser sua capacidade de construir patrimônio.</p>
+.card{
+  background:#fff;
+  border-radius:18px;
+  padding:20px;
+  box-shadow:0 4px 18px rgba(0,0,0,.08);
+  border-top:5px solid #e21d25;
+}
 
-<p>🚀 Consulte as condições especiais das parcelas e veja uma opção adequada ao seu objetivo.</p>
+.card h3{
+  color:#c9151d;
+  font-size:22px;
+  margin-bottom:12px;
+}
 
-</div>
+.card p{
+  color:#444;
+  margin-bottom:10px;
+}
 
-<a class="cta"
-href="https://wa.me/5511997788389?text=Ol%C3%A1%2C%20Valdinei!%20Vi%20a%20apresenta%C3%A7%C3%A3o%20de%20cons%C3%B3rcio%20e%20quero%20conhecer%20as%20condi%C3%A7%C3%B5es."
-target="_blank">
+.illustration{
+  text-align:center;
+  font-size:65px;
+  margin-bottom:10px;
+}
 
-FALAR COM VALDINEI NO WHATSAPP
+table{
+  width:100%;
+  border-collapse:collapse;
+  overflow:hidden;
+  border-radius:12px;
+  margin-top:12px;
+}
 
-<small>(11) 99778-8389 • Atendimento direto</small>
+th{
+  background:#c9151d;
+  color:white;
+  padding:12px 8px;
+  font-size:15px;
+}
 
-</a>
+td{
+  background:#fff;
+  padding:11px 8px;
+  text-align:center;
+  border:1px solid #ddd;
+  font-size:15px;
+}
 
-<div class="footer">
-Consórcio sujeito às condições do grupo e do plano contratado.
-</div>
+td strong{
+  color:#b51219;
+}
 
-</main>
-</body>
-</html>
+.note{
+  font-size:12px;
+  color:#666;
+  margin-top:8px;
+}
+
+.uses{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
